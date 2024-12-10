@@ -31,8 +31,8 @@
             </ul>
             <!-- Ikoner for bruker og handlekurv -->
             <div class="nav-icons">
-                <i class="fas fa-user"></i></a>
-                <i class="fas fa-heart"></i></a>
+                <i class="fas fa-user"></i>
+                <i class="fas fa-heart"></i>
                 <a href="kasse.html" id="cart-icon">
                     <i class="fas fa-shopping-cart"></i></a>
             </div>
@@ -83,40 +83,40 @@
         </section>
 
         <!-- Delivery Section -->
-        <section id="delivery">
-            <h2>Levering</h2>
-            <form>
-                <label>
-                    <input type="radio" name="delivery" value="express-home">
-                    <i class="fas fa-truck"></i> Ekspresslevering hjem
-                    <p>Leveringstid: 1-2 dager</p>
-                </label>
-                <label>
-                    <input type="radio" name="delivery" value="express-pickup">
-                    <i class="fas fa-box"></i> Ekspress pakke til utleveringssted
-                    <p>Leveringstid: 2-3 dager</p>
-                </label>
-                <label>
-                    <input type="radio" name="delivery" value="standard-home">
-                    <i class="fas fa-home"></i> Standard hjemlevering
-                    <p>Leveringstid: 5-7 dager</p>
-                </label>
-            </form>
-        </section>
-        
+       <section id="delivery">
+    <h2>Levering</h2>
+    <form>
+        <label>
+            <input type="radio" name="delivery" value="express-home">
+            <i class="fas fa-truck"></i> Ekspresslevering hjem  
+        </label>
+        <p>Leveringstid: 1-2 dager</p>
+        <label>
+            <input type="radio" name="delivery" value="express-pickup">
+            <i class="fas fa-box"></i> Ekspress pakke til utleveringssted
+        </label>
+        <p>Leveringstid: 2-3 dager</p>
+        <label>
+            <input type="radio" name="delivery" value="standard-home">
+            <i class="fas fa-home"></i> Standard hjemlevering
+        </label>
+        <p>Leveringstid: 5-7 dager</p>
+    </form>
+</section>
+
 
         <!-- Payment Section -->
         <section id="payment">
             <h2>Betaling</h2>
             <form>
                 <label for="card-number">Kortnummer</label>
-                <input type="text" id="card-number" name="card-number" required>
-                
+                <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" maxlength="19" required>        
+               
                 <label for="expiry-date">Utløpsdato</label>
-                <input type="text" id="expiry-date" name="expiry-date" required>
+                <input type="date" id="expiry-date" name="expiry-date" required>
                 
                 <label for="cvc">CVC/CVV</label>
-                <input type="text" id="cvc" name="cvc" required>
+                <input type="text" id="cvc" placeholder="CVC/CVV" name="cvc" required>
                 
                 <button type="submit">Fullfør kjøp</button>
             </form>
@@ -152,6 +152,8 @@
             <li><a href="#">Produkter</a></li>
             <li><a href="#">Kategorier</a></li>
             <li><a href="#">Kontakt oss</a></li>
+            <li><a href="path-to-accessibility-statement.pdf" target="_blank">Tilgjengelighetserklæring</a></li>
+        </ul>
         </ul>
     </section>
     <section id="sosiale-medier">
